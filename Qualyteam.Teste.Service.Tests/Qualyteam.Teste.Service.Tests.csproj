@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Qualyteam.Teste.Domain\Qualyteam.Teste.Domain.csproj" />
+    <ProjectReference Include="..\Qualyteam.Teste.Data\Qualyteam.Teste.Data.csproj" />
+    <ProjectReference Include="..\Qualyteam.Teste.Service\Qualyteam.Teste.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TestPlatform.ObjectModel" Version="16.10.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="NUnit" Version="3.13.2" />
+	  <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+	  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
